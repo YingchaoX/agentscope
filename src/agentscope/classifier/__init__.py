@@ -18,6 +18,7 @@ from ._response import (
     ScoreAnswer,
 )
 from ._usage import ClassifierUsage
+from ._dashscope import DashScopeClassifierModel
 from ._jev import JevClassifierModel
 from ._openai import OpenAIClassifierModel
 
@@ -32,6 +33,7 @@ __all__ = [
     "ClassifierQuestion",
     "ClassifierResponse",
     "ClassifierUsage",
+    "DashScopeClassifierModel",
     "JevClassifierModel",
     "OpenAIClassifierModel",
     "RefusalAnswer",
